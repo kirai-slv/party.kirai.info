@@ -1,0 +1,6 @@
+/* === breakpoints === */
+$breakpoints: (
+	'small': 'screen and (min-width: 415px)',
+	'middle': 'screen and (min-width: 769px)',
+	'large': 'screen and (min-width: 1191px)'
+) !default;

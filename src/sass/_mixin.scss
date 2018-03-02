@@ -1,0 +1,14 @@
+/*
+
+_mixin.scss
+
+*/
+
+/* === mediaQuery === */
+@mixin mediaQueries($size: middle) {
+
+	@media #{map-get($breakpoints, $size)} {
+		@content;
+	}
+
+}
