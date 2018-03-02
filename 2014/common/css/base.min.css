@@ -1,0 +1,55 @@
+@charset "utf-8";@import url('http://yui.yahooapis.com/3.15.0/build/cssreset/cssreset-min.css');@import url('http://yui.yahooapis.com/3.15.0/build/cssfonts/cssfonts-min.css');figure,figcaption{margin:0;padding:0;}
+small{font-size:100%;}
+html{background:transparent;}
+a{outline:none;text-decoration:underline;color:#009FE8;}
+a:hover{text-decoration:none;}
+img{width:100%;display:block;}
+.ophover:hover{opacity:0.8;}
+body{color:#333;font-family:'ヒラギノ明朝 Pro W3','游明朝','メイリオ',san-serif;line-height:1.4;}
+.wrapper{width:1024px;margin:0 auto;position:relative;}
+nav.global div{display:-webkit-flex;display:flex;}
+nav.global ul{padding-right:1px;background:url('/common/img/bg_02.png') 100% 50% no-repeat;display:-webkit-flex;display:flex;}
+nav.global h1,nav.global ul li{padding-left:1px;background:url('/common/img/bg_02.png') 0 50% no-repeat;}
+nav.global h1 a,nav.global ul li a,nav.global ul li span{padding:40px 0 12px 0;background:50% 12px no-repeat;display:block;}
+nav.global ul li span{opacity:0.5;}
+nav.global h1.home a:hover,nav.global ul li a:hover,.home nav.global h1.home a,.join nav.global ul li.join a,.list nav.global ul li.list a,.cheer nav.global ul li.cheer a,.printing nav.global ul li.printing a,.inquiry nav.global ul li.inquiry a{background-color:#FFFAB2;}
+nav.global h1.home a{background-image:url('/common/img/ico_02.png');}
+nav.global ul li.join a{background-image:url('/common/img/ico_03.png');}
+nav.global ul li.list a{background-image:url('/common/img/ico_04.png');}
+nav.global ul li.cheer a{background-image:url('/common/img/ico_05.png');}
+nav.global ul li.printing a{background-image:url('/common/img/ico_06.png');}
+nav.global ul li.inquiry a{background-image:url('/common/img/ico_07.png');}
+nav.global input,nav.global label{display:none;}
+img.btn{box-shadow:0 0 10px rgba(0,0,0,0.6);}
+footer{margin-top:5%;padding:2% 0;background:#009FE8;color:#fff;}
+footer a{color:#fff;}
+footer .links{display:-webkit-flex;display:flex;-webkit-justify-content:space-between;justify-content:space-between;-webkit-align-items:flex-start;align-items:flex-start;}
+footer .links ul{display:-webkit-flex;display:flex;-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-flex-wrap:wrap;flex-wrap:wrap;-webkit-flex:1 0 auto;flex:1 0 auto;}
+footer .links ul li{margin-right:1%;padding-right:1%;font-size:123.1%;border-right:1px solid #fff;}
+footer .links ul li a{}
+footer .sns{display:-webkit-flex;display:flex;-webkit-justify-content:space-between;justify-content:space-between;-webkit-align-items:center;align-items:center;}
+footer .sns img{width:auto;}
+footer .sns iframe{width:100%;margin-left:20px;}
+footer ul li:last-child{border:0;}
+footer p{}
+@media (max-width:1024px){.wrapper{width:100%;}
+footer{padding:2%;}}
+@media (max-width:640px){.fontFix{font-size:93%;}
+a:hover{text-decoration:underline;}
+nav.global div{display:block;}
+nav.global div img{width:auto;margin:0 auto;}
+nav.global ul{padding-right:0;background:none;display:block;}
+nav.global h1,nav.global ul li{padding:0;background:none;border-top:1px solid #009fe8;}
+nav.global h1 a,nav.global ul li a,nav.global ul li span{padding:2%;background:5% 56% no-repeat;}
+nav.global h1.home a:hover,nav.global ul li a:hover,.home nav.global h1.home a,.join nav.global ul li.join a,.list nav.global ul li.list a,.cheer nav.global ul li.cheer a,.printing nav.global ul li.printing a,.inquiry nav.global ul li.inquiry a{background-color:#fff;}
+nav.global input{}
+nav.global label{width:100%;padding-bottom:0.6em;display:block;background:url('/common/img/ico_09.png') 5% 0 no-repeat;text-align:center;}
+nav.global label img{width:auto;margin:0 auto;}
+nav.global input~div{display:none;}
+nav.global input:checked~div{display:block;}
+footer .links{-webkit-justify-content:space-between;justify-content:space-between;-webkit-flex-wrap:wrap;flex-wrap:wrap;}
+footer .links ul{margin-top:1.8%;padding-top:2%;border-top:1px dotted #fff;-webkit-flex-basis:100%;flex-basis:100%;-webkit-order:2;order:2;}
+footer .links .tweet{-webkit-flex-basis:100%;flex-basis:100%;-webkit-order:1;order:1;}
+footer p{margin-top:1.6%;}}
+@media (max-width:320px){.fontFix{font-size:77%;}}
+

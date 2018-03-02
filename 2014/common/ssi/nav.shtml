@@ -1,0 +1,14 @@
+<nav class="global">
+	<input type="checkbox" id="menuBtn">
+	<label for="menuBtn"><img src="/common/img/nav_07.png" alt="メニュー"></label>
+	<div>
+		<h1 class="home"><a href="/"><img src="/common/img/nav_01.png" alt="スレイヤーズプチオンリー『混沌鍋パ』"></a></h1>
+		<ul>
+			<li class="join"><a href="/join/"><img src="/common/img/nav_02.png" alt="参加方法"></a></li>
+			<li class="list"><a href="/list/"><img src="/common/img/nav_03.png" alt="サークルリスト"></a></li>
+			<li class="cheer"><a href="/cheer/"><img src="/common/img/nav_04.png" alt="アンソロジー応援"></a></li>
+			<li class="printing"><a href="/printing/"><img src="/common/img/nav_05.png" alt="支援印刷所"></a></li>
+			<li class="inquiry"><a href="/inquiry/"><img src="/common/img/nav_06.png" alt="お問い合わせ"></a></li>
+		</ul>
+	</div>
+</nav>

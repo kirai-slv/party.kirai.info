@@ -1,0 +1,30 @@
+@charset "utf-8";@import url('/common/css/base.min.css');@import url('/common/css/lower.min.css');.printing{}
+.printing article p{margin-top:1.8%;font-size:123.1%;line-height:1.7;}
+.printing article>p span.att,.printing article>p span.att strong{color:#e51373;font-weight:bold;}
+.printing article h2{margin-top:1.8%;color:#009fe8;font-size:123.1%;font-weight:bold;line-height:1.7;}
+.printing article>ul{display:-webkit-flex;display:flex;-webkit-justify-content:stretch;justify-content:stretch;-webkit-flex-wrap:wrap;flex-wrap:wrap;}
+.printing article>ul li{margin:1.8% 2% 0;-webkit-flex:1 1 auto;flex:1 1 auto;}
+.printing article>ul li img{width:200px;height:40px;display:inline;}
+.printing article table{width:100%;margin-top:1.8%;background:#009fe8;border-collapse:collapse;border:2px solid #009fe8;}
+.printing article table tr{}
+.printing article table th,.printing article table td{border:1px solid #009fe8;}
+.printing article table th{padding:0.5em;background:#ccecfa;text-align:center;font-weight:bold;color:#009fe8;}
+.printing article table td{background:#fff;padding:1em 0.5em;}
+.printing article table td:nth-child(1) img{width:auto;margin:0 auto;}
+.printing article table td:nth-child(2) dt{margin-top:0.5em;}
+.printing article table td:nth-child(2) dt:first-child{margin-top:0;}
+.printing article table td:nth-child(2) dd{margin-left:1.4em;}
+.printing article table td:nth-child(2) dd.disc{margin-left:2.8em;display:list-item;list-style:disc;}
+.printing article table td:nth-child(2) dd.att{margin-left:2.2em;text-indent:-1em;}
+.printing article table td:nth-child(2) dd.att:before{content:'※';}
+.printing article table td:nth-child(2) dd ul li{margin-left:2em;display:list-item;list-style:circle;}
+.printing article table td:nth-child(3){white-space:nowrap;text-align:center;font-size:153.9%;font-weight:bold;color:#ccc;}
+@media (max-width:640px){.printing article table tr:first-child{display:none;}
+.printing article table tr{display:-webkit-flex;display:flex;flex-wrap:wrap;}
+.printing article table td{width:100%;padding:0.5em;display:block;border:0;}
+.printing article table td:nth-child(1){}
+.printing article table td:nth-child(1) img{margin-left:0;}
+.printing article table td:nth-child(3){border-bottom:1px solid #009fe8;text-align:left;}
+.printing article table tr:last-child td:nth-child(3){border:0;}}
+@media (max-width:320px){.printing article ul li{text-align:center;}}
+

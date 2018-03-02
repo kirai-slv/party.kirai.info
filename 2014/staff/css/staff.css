@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+/* ------------------------------------------------------- 
+  Basic Layout
+  -------------------------------------------------------- */
+
+@import url('/common/css/base.min.css');
+
+
+/* ------------------------------------------------------- 
+  Lower Layout
+  -------------------------------------------------------- */
+
+@import url('/common/css/lower.min.css');
+
+
+/* ------------------------------------------------------- 
+  Staff Layout
+  -------------------------------------------------------- */
+.staff {
+}
+.staff article h1,
+.staff article h2,
+.staff article p,
+.staff article dl dt,
+.staff article dl dd,
+.staff article small {
+	font-size:123.1%;
+	line-height:1.7;
+}
+.staff article section h1 {
+	color:#009fe8;
+	font-weight:bold;
+}
+.staff article dd img {
+	width:auto;
+	display:inline;
+}
+
+/* ==============================
+　　.promoter
+ ============================= */
+.staff article.promoter section {
+	margin-top:2.2%;
+}
+.staff article.promoter section h1 {
+	color:#009fe8;
+	font-weight:bold;
+}
+.staff article.promoter section .promoters {
+		display:-webkit-flex;
+	display:flex;
+		-webkit-justify-content:flex-start;
+	justify-content:flex-start;
+}
+.staff article.promoter section .promoters dl {
+	margin-top:0.8%;
+		display:-webkit-flex;
+	display:flex;
+		-webkit-justify-content:flex-start;
+	justify-content:flex-start;
+		-webkit-align-items:center;
+	align-items:center;
+		-webkit-flex-wrap:wrap;
+	flex-wrap:wrap;
+}
+.staff article.promoter section .promoters dl dt,
+.staff article.promoter section .promoters dl dd {
+	margin-right:0.5em;
+}
+.staff article.promoter section .promoters dl dt {
+	width:100%;
+		-webkit-order:1;
+	order:1;
+}
+.staff article.promoter section .promoters dl dd.twitter {
+		-webkit-order:2;
+	order:2;
+		-webkit-display:flex;
+	display:flex;
+		-webkit-align-items:center;
+	align-items:center;
+}
+.staff article.promoter section .promoters dl dd.pixiv {
+		-webkit-order:3;
+	order:3;
+}
+
+/* ------------------------------
+　　.greeting
+ ----------------------------- */
+.staff article.promoter section.greeting h1 + p {
+	margin-top:0.8%;
+}
+.staff article.promoter section.greeting p:last-child {
+	text-align:right;
+	font-size:108%;
+}
+.staff article.promoter section.greeting p:last-child time {
+	margin-right:0.5em;
+}
+
+/* ==============================
+　　.cooperator
+ ============================= */
+.staff article.cooperator .cooperators {
+		display:-webkit-flex;
+	display:flex;
+		-webkit-justify-content:flex-start;
+	justify-content:flex-start;
+}
+.staff article.cooperator header + p {
+	margin-top:1.8%;
+}
+.staff article.cooperator .cooperators section {
+	margin:1.8% 4% 0 0;
+}
+.staff article.cooperator .cooperators section:last-child {
+	margin-right:0;
+}
+.staff article.cooperator .cooperators section dl {
+		display:-webkit-flex;
+	display:flex;
+		-webkit-justify-content:flex-start;
+	justify-content:flex-start;
+		-webkit-align-items:center;
+	align-items:center;
+		-webkit-flex-wrap:wrap;
+	flex-wrap:wrap;
+}
+.staff article.cooperator .cooperators section dl dt,
+.staff article.cooperator .cooperators section dl dd {
+	margin-right:0.5em;
+}
+.staff article.cooperator .cooperators section dl dt {
+		-webkit-order:1;
+	order:1;
+		-webkit-flex-basis:100%;
+	flex-basis:100%;
+}
+.staff article.cooperator .cooperators section dl dd.twitter {
+	padding-bottom:0.2em;
+		-webkit-order:2;
+	order:2;
+		display:-webkit-flex;
+	display:flex;
+		-webkit-align-items:center;
+	align-items:center;
+}
+.staff article.cooperator .cooperators section dl dd.pixiv {
+		-webkit-order:3;
+	order:3;
+}
+.staff article.cooperator .cooperators section dl dd.website {
+		-webkit-order:4;
+	order:4;
+}
+
+
+@media (max-width: 1024px) {
+	
+	/* ==============================
+	　　.cooperator
+	============================= */
+	.staff article.cooperator .cooperators {
+			-webkit-flex-wrap:wrap;
+		flex-wrap:wrap;
+	}
+	.staff article.cooperator .cooperators section dl dd.website {
+			-webkit-flex-basis:100%;
+		flex-basis:100%;
+	}
+	
+}
+@media (max-width: 640px) {
+	
+	/* ==============================
+	　　.promoter
+	============================= */
+	.staff article.promoter section .promoters {
+			-webkit-flex-wrap:wrap;
+		flex-wrap:wrap;
+	}
+	
+}
+
+
+
+
+
+
+
+
+

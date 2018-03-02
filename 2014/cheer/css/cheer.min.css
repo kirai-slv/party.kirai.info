@@ -1,0 +1,41 @@
+@charset "utf-8";@import url('/common/css/base.min.css');@import url('/common/css/lower.min.css');.cheer.index .contents{margin:2% 3% 0;display:-webkit-flex;display:flex;-webkit-justify-content:space-between;justify-content:space-between;}
+.cheer.index #contents{-webkit-flex:0 1 70.2%;flex:0 1 70.2%;}
+.cheer.index #contents h1,.cheer.index #contents h2,.cheer.index #contents p,.cheer.index #contents dt,.cheer.index #contents dd{font-size:123.1%;line-height:1.7;}
+.cheer.index #contents section{margin-top:2%;}
+.cheer.index #contents section:first-child{margin-top:0;}
+.cheer.index #contents section h1{padding:8px 13px;background:#ccecfa;color:#009FE8;font-weight:bold;}
+.cheer.index #contents section .sectionInner{margin-top:2%;display:-webkit-flex;display:flex;-webkit-justify-content:space-between;justify-content:space-between;flex-wrap:wrap;}
+.cheer.index #contents section .sectionInner .visual{-webkit-flex:0 1 66%;flex:0 1 66%;}
+.cheer.index #contents section .sectionInner .details{-webkit-flex:0 1 32%;flex:0 1 32%;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-justify-content:flex-end;justify-content:flex-end;-webkit-align-items:flex-start;align-items:flex-start;flex-wrap:wrap;}
+.cheer.index #contents section .sectionInner .details dl{flex:0 1 auto;}
+.cheer.index #contents section .sectionInner .details dl dt{color:#009FE8;font-weight:bold;}
+.cheer.index #contents section .sectionInner .details .bnr{margin-top:2%;flex:0 1 auto;}
+.cheer.index #contents section .sectionInner .details .bnr a img{width:auto;}
+.cheer.index #contents section .sectionInner .lines{margin-top:2%;flex:0 1 100%;}
+.cheer.index .aside{-webkit-flex:0 1 25.5%;flex:0 1 25.5%;}
+.cheer.index .aside .bnr{}
+.cheer.index .aside .bnr h1{display:none;}
+.cheer.invite article h1,.cheer.invite article h2,.cheer.invite article p,.cheer.invite article li{font-size:123.1%;line-height:1.7;}
+.cheer.invite article li li{font-size:100%;}
+.cheer.invite article header+p{margin-top:1.8%;}
+.cheer.invite article section{margin-top:2.2%;}
+.cheer.invite article p i{color:#ccc;}
+.cheer.invite article section h1{color:#009fe8;font-weight:bold;}
+.cheer.invite article section ul li{margin-left:1.5em;list-style:disc;}
+.cheer.invite article section ol li{margin-left:1.5em;list-style:decimal;}
+.cheer.invite article>p:last-child{margin-top:2.8%;text-align:center;}
+.cheer.invite article>p:last-child img{width:auto;display:inline;}
+.cheer.invite article section.flow .app{padding-bottom:2.8%;}
+.cheer.invite article section.flow .app section{margin-top:1%;padding:0 3.8% 0 3.8%;}
+.cheer.invite article section.flow .app section h1{position:relative;}
+.cheer.invite article section.flow .app section h1:after{content:'';border:solid transparent;border-width:0.4em 0.6em;border-left-color:#009fe8;position:absolute;top:0.4em;left:-1em;}
+.cheer.invite article section.limit p{width:360px;margin-top:0.8%;padding:2%;background:#fffab2;}
+.cheer.invite article section.limit p span{margin-left:1%;font-size:146.5%;font-weight:bold;vertical-align:middle;}
+@media (max-width:860px){.cheer.index .contents{display:block;}
+.cheer.index .aside{margin-top:5%;}
+.cheer.index .aside .bnr p{text-align:center;}
+.cheer.index .aside .bnr p img{width:auto;display:inline;}}
+@media (max-width:640px){.cheer.index #contents section .sectionInner{display:block;}
+.cheer.index #contents section .sectionInner .details dl{margin-top:2%;}
+.cheer.invite article section.limit p{width:auto;}}
+

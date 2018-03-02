@@ -1,0 +1,9 @@
+@charset "utf-8";@import url('/common/css/base.min.css');@import url('/common/css/lower.min.css');.inquiry{}
+.inquiry article dl{margin-top:1.8%;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-flex-wrap:wrap;flex-wrap:wrap;font-size:153.9%;line-height:1.6;}
+.inquiry article dl dt{-webkit-flex:0 0 25px;flex:0 0 25px;}
+.inquiry article dl dt img{width:auto;}
+.inquiry article dl dd{-webkit-flex:1 1 95%;flex:1 1 95%;}
+.inquiry article dl dd a{color:#222;text-decoration:none;}
+.inquiry article dl dd a:hover{text-decoration:underline;}
+@media (max-width:640px){.inquiry article dl dd a:hover{text-decoration:none;}}
+

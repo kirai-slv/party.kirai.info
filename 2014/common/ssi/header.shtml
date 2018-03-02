@@ -1,0 +1,9 @@
+<header class="dHeader">
+	<div class="wrapper">
+		<div class="siteName">
+			<p><a href="/"><img src="/common/img/logo_01.png" alt="スレイヤーズプチオンリー『混沌鍋パ』"></a></p>
+			<p><img src="/common/img/txt_01.png" alt="2014年10月12日（日曜日)"></p>
+		</div>
+		<!--#include virtual="./nav.shtml"-->
+	<!-- /.wrapper --></div>
+</header>

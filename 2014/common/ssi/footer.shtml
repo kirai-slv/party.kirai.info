@@ -1,0 +1,21 @@
+<footer>
+	<div class="wrapper">
+		<div class="links">
+			<ul>
+				<li><a href="/about/">当サイトについて</a></li>
+				<li><a href="/staff/">スタッフ</a></li>
+			</ul>
+			<div class="sns">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://party.kirai.info/" data-lang="en" data-related="nabe_petit" data-size="large">ツイート</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				<span>
+				<script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
+				<script type="text/javascript">
+				new media_line_me.LineButton({"pc":false,"lang":"ja","type":"c","text":"スレイヤーズプチオンリー『混沌鍋パ』 http://goo.gl/zZPYLO","withUrl":false});
+				</script>
+				</span>
+			<!-- /.sns --></div>
+		<!-- /.links --></div>
+		<p>当サイト及びイベントは<strong>スレイヤーズ</strong>の二次創作企画です。<br>個人の主催する企画であり、版権元及びその他関連企業・団体とは一切関係ございません。</p>
+	<!-- /.wrapper --></div>
+</footer>

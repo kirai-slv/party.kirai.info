@@ -1,0 +1,61 @@
+@charset "utf-8";@import url('/common/css/base.min.css');@import url('/common/css/jquery.owl.carousel.css');@import url('/common/css/jquery.owl.theme.css');.home{}
+.home header{padding-top:21.4%;background:url('../img/bg_01.jpg') no-repeat;background-size:contain;}
+.home header h1{width:41.3%;margin:0 auto;}
+.home #nav{margin-top:11px;}
+.home #date{margin-top:1.6%;border-top:1px solid #006FA3;background:#009FE8;}
+.home #date p{padding:0.8% 0;display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;align-items:center;}
+.home #date p>img{width:auto;margin:0 2% 0 12.6%;-webkit-flex:1 1 54%;flex:1 1 54%;}
+.home #date p>span{margin-right:12.6%;padding:0 1%;-webkit-flex:1 1 42.6%;flex:1 1 42.6%;background:#FFFAB2;display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;align-items:center;}
+.home #date p>span img{width:auto;display:inline;}
+.home #date p>span span{margin:0 0.4% 0 1%;color:#009FE8;font-size:167%;font-style:italic;}
+.home #date p>span>span:nth-child(2){margin:0 1% 0 1.2%;color:#E51373;font-size:189%;}
+.home #date p>span.now{font-size:167%;color:#009FE8;}
+.home #date p>span.close{font-size:116%;color:#009FE8;}
+.home .contents{margin:2% 3% 0;display:-webkit-flex;display:flex;-webkit-justify-content:space-between;justify-content:space-between;}
+.home .contents h1 img{width:auto;}
+.home #contents{-webkit-flex:0 1 70.2%;flex:0 1 70.2%;}
+.home #contents h1{padding:1.2% 0 1% 34px;background:url('/common/img/ico_01.png') 0.4% 50% no-repeat;border-bottom:2px solid #009FE8;}
+.home #contents section{margin-top:2%;}
+.home #contents .information{}
+.home #contents .information dl{display:-webkit-flex;display:flex;-webkit-justify-content:space-between;justify-content:space-between;-webkit-flex-wrap:wrap;flex-wrap:wrap;}
+.home #contents .information dl dt,.home #contents .information dl dd{padding:1% 0;border-top:1px dotted #CECECE;font-size:123.1%;line-height:1.6;}
+.home #contents .information dl dt:nth-child(1),.home #contents .information dl dd:nth-child(2){border:0;}
+.home #contents .information dl dt{padding-right:2%;-webkit-flex:1 0 auto;flex:1 0 auto;font-weight:bold;white-space:nowrap;}
+.home #contents .information dl dd{-webkit-flex:0 1 84%;flex:0 1 84%;}
+.home #contents .outline dl{margin-top:2%;}
+.home #contents .outline dl dt,.home #contents .outline dl dd{font-size:123.1%;line-height:1.6;}
+.home #contents .outline dl dt{margin-top:1%;color:#009FE8;font-weight:bold;}
+.home #contents .outline dl dd br{display:none;}
+.home #contents .about p{margin-top:2%;font-size:123.1%;line-height:1.6;}
+.home .aside{-webkit-flex:0 1 25.5%;flex:0 1 25.5%;}
+.home .aside .bnr{}
+.home .aside .bnr h1{display:none;}
+.home .aside .bnr ul li{margin-top:5%;text-align:center;}
+.home .aside .bnr ul li:first-child{margin-top:0;}
+.home .aside .twitter{margin-top:7%;}
+.home .aside .twitter h1{padding:1.2% 0 1% 31px;background:url('/common/img/ico_08.png') 0.4% 50% no-repeat;}
+.home .aside .twitter iframe{width:100%!important;margin-top:3%;min-width:0!important;}
+.home .aside .link{margin-top:6%;}
+.home .aside .link h1{display:none;}
+.home .aside .link ul li{margin-top:3%;text-align:center;}
+.home .aside .link ul li img{width:auto;display:inline;}
+@media (max-width:1024px){.home .contents{}
+.home #contents .information dl{display:block;}
+.home #contents .information dl dt{padding-bottom:0;border:0;}
+.home #contents .information dl dd{padding-top:0;border:0;}}
+@media (max-width:860px){.home #date p{padding:1.2% 0;display:block;}
+.home #date p>img{width:48%;margin:0 auto 1%;}
+.home #date p>span{width:48%;margin:0 auto;}
+.home .contents{display:block;}
+.home #contents .information dl{}
+.home .aside{margin-top:5%;}
+.home .aside .bnr ul{text-align:center;}
+.home .aside .bnr ul img{width:auto;display:inline;}
+.home .aside .twitter iframe{margin-top:1%;height:300px;}}
+@media (max-width:640px){.home #date p>img{width:80%;}
+.home #date p>span{width:80%;margin:0 auto;}}
+@media (max-width:320px){.home #date p{padding:3% 0;}
+.home #date p>img{width:90%;margin-bottom:2%;}
+.home #date p>span{width:90%;margin:0 auto;}
+.home #contents .outline dl dd br{display:inline;}}
+

@@ -1,0 +1,66 @@
+@charset "utf-8";@import url('/common/css/base.min.css');@import url('/common/css/lower.min.css');.join{}
+.join article#public p{margin-top:1.8%;font-size:123.1%;line-height:1.6;}
+.join article#circle section{margin-top:2.2%;}
+.join article#circle section h1,.join article#circle section h2,.join article#circle section h3,.join article#circle section figcaption,.join article#circle section p,.join article#circle section dt,.join article#circle section dd,.join article#circle section li{font-size:123.1%;line-height:1.7;}
+.join article#circle section h1{color:#009fe8;font-weight:bold;}
+.join article#circle section:nth-child(2){margin-top:1.8%;}
+.join article#circle section:nth-child(2) ul{margin-top:1.8%;}
+.join article#circle section:nth-child(2) ul:nth-child(3) li{margin-left:2em;list-style:decimal;}
+.join article#circle section:nth-child(2) ul:nth-child(4) li:before{content:'※';}
+.join article#circle section:nth-child(3) nav ol{width:510px;margin-top:0.8%;display:-webkit-flex;display:flex;-webkit-align-items:stretch;align-items:stretch;-webkit-justify-content:flex-start;justify-content:flex-start;}
+.join article#circle section:nth-child(3) nav ol li{margin-left:10%;-webkit-flex:0 0 45%;flex:0 0 45%;background:#ccecfa;position:relative;}
+.join article#circle section:nth-child(3) nav ol li:after{content:'';border:solid transparent;border-width:9px 12px;border-left-color:#009fe8;position:absolute;top:40%;left:-13%;}
+.join article#circle section:nth-child(3) nav ol li a{height:100%;display:-webkit-flex;display:flex;-webkit-align-items:flex-start;align-items:flex-start;color:#222;text-decoration:none;}
+.join article#circle section:nth-child(3) nav ol li a span:nth-child(1){margin-right:23px;padding:3px 8px 0 10px;background:#009fe8;color:#fff;font-weight:bold;position:relative;display:block;}
+.join article#circle section:nth-child(3) nav ol li a span:nth-child(1):after{content:'';border:solid transparent;border-width:0.95em 0.8em;border-left-color:#009fe8;position:absolute;top:0;right:-1.5em;}
+.join article#circle section:nth-child(3) nav ol li a span:nth-child(2){padding:5% 5% 5% 0;}
+.join article#circle section:nth-child(3) nav ol li:first-child{margin:0;}
+.join article#circle section:nth-child(3) nav ol li:first-child:after{border:0;}
+.join article#circle section:nth-child(3) .steps{margin-top:1.8%;padding-bottom:2.8%;border:2px solid #009fe8;}
+.join article#circle section:nth-child(3) .steps section h1{display:-webkit-flex;display:flex;-webkit-align-items:flex-start;align-items:flex-start;}
+.join article#circle section:nth-child(3) .steps section h1 span:nth-child(1){margin-right:20px;padding:3px 8px 0 10px;background:#009fe8;color:#fff;font-weight:bold;position:relative;display:block;}
+.join article#circle section:nth-child(3) .steps section h1 span:nth-child(1):after{content:'';border:solid transparent;border-width:0.95em 0.8em;border-left-color:#009fe8;position:absolute;top:0;right:-1.5em;}
+.join article#circle section:nth-child(3) .steps section h1 span:nth-child(2){padding-top:0.4%;}
+.join article#circle section:nth-child(3) .steps .inner{padding:1.8% 3.8% 0 3.8%;}
+.join article#circle section:nth-child(3) .steps .inner h2,.join article#circle section:nth-child(3) .steps .inner h3{margin-top:1.8%;font-weight:bold;}
+.join article#circle section:nth-child(3) #step01 .inner dl{width:470px;margin-top:0.8%;padding:2%;background:#fffab2;display:-webkit-flex;display:flex;-webkit-justify-content:space-between;justify-content:space-between;-webkit-align-items:center;align-items:center;-webkit-flex-wrap:wrap;flex-wrap:wrap;}
+.join article#circle section:nth-child(3) #step01 .inner dl dt{-webkit-flex:1 0 26%;flex:1 0 26%;white-space:nowrap;}
+.join article#circle section:nth-child(3) #step01 .inner dl dd{-webkit-flex:0 1 72%;flex:0 1 72%;}
+.join article#circle section:nth-child(3) #step01 .inner dl dd span{margin-left:1%;font-size:146.5%;font-weight:bold;vertical-align:middle;}
+.join article#circle section:nth-child(3) #step01 .inner .shared{display:-webkit-flex;display:flex;-webkit-justify-content:space-between;justify-content:space-between;-webkit-align-items:flex-start;align-items:flex-start;}
+.join article#circle section:nth-child(3) #step01 .inner .shared ul{}
+.join article#circle section:nth-child(3) #step01 .inner .shared ul li:before{content:'※';}
+.join article#circle section:nth-child(3) #step01 .inner .shared figure img{width:auto;}
+.join article#circle section:nth-child(3) #step01 .inner .shared figcaption:before{margin-right:2%;content:'';border:solid transparent;border-width:0.7em 0.5em;border-top-color:#222;position:relative;top:1em;}
+.join article#circle section:nth-child(3) #step01 .inner .shared div:nth-child(1){margin-right:1em;-webkit-flex:0 1 50%;flex:0 1 50%;}
+.join article#circle section:nth-child(3) #step01 .inner .shared div:nth-child(1) p.btn{margin-top:1.8%;}
+.join article#circle section:nth-child(3) #step01 .inner .shared div:nth-child(1) p.btn img{width:auto;display:inline;}
+.join article#circle section:nth-child(3) #step01 .inner .shared figure:nth-child(2){-webkit-flex:1 1 18%;flex:1 1 18%;}
+.join article#circle section:nth-child(3) #step01 .inner .shared figure:nth-child(3){-webkit-flex:1 1 24%;flex:1 1 24%;}
+.join article#circle section:nth-child(3) #step02 .inner ol li{margin-left:1.8em;list-style:decimal;}
+.join article#circle section:nth-child(3) #step02 .inner .app{padding-bottom:2.8%;}
+.join article#circle section:nth-child(3) #step02 .inner .app section{margin-top:1%;padding:0 3.8% 0 3.8%;}
+.join article#circle section:nth-child(3) #step02 .inner .app section h1{position:relative;}
+.join article#circle section:nth-child(3) #step02 .inner .app section h1:after{content:'';border:solid transparent;border-width:0.4em 0.6em;border-left-color:#009fe8;position:absolute;top:0.4em;left:-1em;}
+.join article#circle section:nth-child(3) #step02 .inner p.limit{width:360px;margin-top:0.8%;padding:2%;background:#fffab2;}
+.join article#circle section:nth-child(3) #step02 .inner p.limit span{margin-left:1%;font-size:146.5%;font-weight:bold;vertical-align:middle;}
+.join article#circle section:nth-child(3) #step02 .inner>p:last-child{margin-top:1.8%;}
+.join article#circle section:nth-child(3) #step02 .inner>p:last-child a img{width:auto;display:inline;}
+.join article#circle section:nth-child(3) #step02 .inner ul li:before{content:'※';}
+@media (max-width:1024px){.join article#circle section:nth-child(3) #step01 .inner dl{width:auto;}
+.join article#circle section:nth-child(3) #step01 .inner .shared{-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-flex-wrap:wrap;flex-wrap:wrap;}
+.join article#circle section:nth-child(3) #step01 .inner .shared div:nth-child(1){margin-right:0;-webkit-flex-basis:100%;flex-basis:100%;}
+.join article#circle section:nth-child(3) #step01 .inner .shared figure:nth-child(2){-webkit-flex-basis:auto;flex-basis:auto;}
+.join article#circle section:nth-child(3) #step01 .inner .shared figure:nth-child(3){-webkit-flex-basis:auto;flex-basis:auto;}}
+@media (max-width:640px){.join article#circle section:nth-child(3) nav ol{width:100%;-webkit-flex-wrap:wrap;flex-wrap:wrap;}
+.join article#circle section:nth-child(3) nav ol li{margin-left:0;margin-top:2em;-webkit-flex-basis:100%;flex-basis:100%;}
+.join article#circle section:nth-child(3) nav ol li:after{border-width:12px 9px;border-left-color:transparent;border-top-color:#009fe8;left:50%;top:-1.4em;}
+.join article#circle section:nth-child(3) nav ol li a span:nth-child(2){padding-right:5%;}
+.join article#circle section:nth-child(3) nav ol li a span:nth-child(2) br{display:none;}
+.join article#circle section:nth-child(3) #step01 .inner dl dt{-webkit-flex-basis:100%;flex-basis:100%;}
+.join article#circle section:nth-child(3) #step01 .inner dl dd{-webkit-flex-basis:100%;flex-basis:100%;}
+.join article#circle section:nth-child(3) #step01 .inner dl dd:nth-child(2){border-bottom:2px dotted #fff;}
+.join article#circle section:nth-child(3) #step01 .inner .shared div:nth-child(1) p.btn img{width:55.9%;}
+.join article#circle section:nth-child(3) #step02 .inner p.limit{width:auto;}}
+@media (max-width:320px){.join article#circle section:nth-child(3) #step01 .inner .shared div:nth-child(1) p.btn img{width:100%;}}
+
